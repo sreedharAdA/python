@@ -1,0 +1,154 @@
+SDLC:
+     Software developement life cycle
+
+1 requriment gathering  (RFP, RFQ)
+2 requriment elecition (srs,crs)
+3 design (HLLD,LLD)
+4 DEVELOMENT
+5 testing 
+6 user(integartion& deployment)
+7 maintanecs(issues security)
+
+
+STLC:
+      Software develoment life cycle
+
+1 testing requriment
+2 test plan
+3 test cases
+4 retesting 
+5 maintainaces
+
+
+there typrs of bug 
+
+1 defect
+2 fault
+3 problem
+4 error
+5 incdint
+6 anamoly
+7 verifiction 
+8 valedition
+9 actual o/p & expected o/p
+
+QA : QUALITY ASSURNACE
+QC : "       CONTROL
+QI : "       INTEGERTION
+
+KINDS OF TESTING
+
+1 un-conventional testing 
+2 conventional    testing
+
+1 un-conventional testing:
+there is no documents 
+
+
+2 conventional    testing:
+
+1 functional testing 
+2 unit testing 
+3 integration testing 
+4 system testing 
+5 regression testing
+6 acceptance testig
+7 non functional testing
+8 usabiliy tasting
+9 security tasting
+10 protability tasting
+
+
+methods of testing 
+
+1 white : testing 
+2 black : testing 
+3 gray  : testing 
+
+testing levels
+
+1 test cases
+2 test cases desgin 
+3 building test cases
+4 test data mining
+5 test execution 
+6 test reporting
+7 defect mangement
+8 test coverage
+
+
+
+
+
+1 primary objectivies
+  
+  1 functional
+  2 un-functional
+  
+2 secondry objectivies
+
+ 1 identity
+ 2 risks
+
+
+
+
+1 data 
+2 verion
+3 description
+4 author 
+5 reviewer
+6 approver
+
+
+
+
+bug life cycle 
+
+1 unconfiromed
+2 new issues
+3 assing
+4 resloved 
+5 verfied
+6 reopen
+7 new issues 
+8 closed bug
+
+
+alpha testing
+
+ when the client comes to developer side that is called alpha testing 
+
+beta 
+
+after alpha 
+
+* severty there are four type 
+
+  1 critial
+  2 high
+  3 medim
+  4 minor
+
+
+* priority types 
+ 1 must fix 
+ 2 should fix 
+ 3 medim fix
+ 4 low fix 
+
+
+
+
+
+
+CMM : CAPABILITY meturity model
+SEI : s/w engneering institute
+HLD : high level developement
+LLD : low level developement
+
+
+
+
+
+
