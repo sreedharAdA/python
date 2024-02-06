@@ -1,0 +1,13 @@
+[name:sreedhar]
+[age:23]
+[gender:male]
+
+
+[name:deva]
+[age:23]
+[gender:male]
+
+
+[name:arun]
+[age:23]
+[gender:male]
