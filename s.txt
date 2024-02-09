@@ -1,0 +1,27 @@
+body{
+  height: 100%;
+  width: 100%;
+  font-size:50px;
+  text-align: center;
+  color:red;
+  animation-name: sreedhar;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+  animation-direction: reverse;
+  
+}
+@keyframes sreedhar{
+  from{
+    width:100%;
+    text-align: cenetr;
+    background-color: red;
+    color:white;
+  }
+   To{
+     width:100%;
+     text-align: cenetr;
+     background-color: #e5e0e0;
+     color:#e40707;
+     
+   }
+}
