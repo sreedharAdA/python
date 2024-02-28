@@ -1,0 +1,17 @@
+.s{
+    background-color: aqua;
+    padding: 1rem;
+}
+.a{
+    background-color: rgb(236, 141, 17);
+    padding: 1rem;
+}
+@media(min-width: 250px) {
+    .contanier{
+        display: flex;
+    }
+    .s{
+        background-color: rgb(136, 167, 167);
+        padding: 1rem;
+    }
+}
