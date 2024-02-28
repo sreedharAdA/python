@@ -1,0 +1,22 @@
+header{
+    background-color: rgb(21, 140, 245);
+    padding: 10px;
+    display: flex
+    
+}
+nav{
+    margin-left: 200px;
+}
+li{
+    list-style: none;
+    float: left;
+    padding: 20px;
+    color: aliceblue;
+    
+}
+li:hover{
+    background-color: rgb(251, 12, 191);
+}
+ nav ul li ul li:hover(0){
+    color: rgb(72, 134, 188);
+}
