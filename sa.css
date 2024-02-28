@@ -1,0 +1,12 @@
+h1{
+    color: rgb(80, 89, 89);
+
+}
+img{
+    float: right;
+    margin-right: 100px;
+
+}
+@media(min-width:100px){
+    
+}
