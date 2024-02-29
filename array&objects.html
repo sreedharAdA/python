@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array and object</title>
+</head>
+<body>
+    <ul id="ul">
+        
+    </ul>
+
+<script>
+        
+const sree=[{Name:"py",fee:"500",mode:"off",place:"yet",time:"9pm"},
+               {Name:"python",fee:"5000",mode:"offline",place:"yetur",time:"5pm"},
+               {Name:"java",fee:"6000",mode:"online",place:"hyd",time:["deva","sreedhar"]}]
+
+               let sa="";
+        for(let i=0;i<sree.length;i++){
+          
+            sa+=`<li>name:${sree[i].Name}fee:${sree[i].fee}mode:${sree[i].mode}</li>`
+        }
+        document.getElementById("ul").innerHTML=sa
+
+</script>
+</body>
+</html>
