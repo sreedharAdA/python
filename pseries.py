@@ -1,28 +1,43 @@
+# cerated by sreedhar
+# 07/06/2024
+
 import numpy as np
 import pandas as pd
-# arr=[1,5,3,8,11]
-#
-# s=pd.Series(data=arr)
-# sa=s[3]
-# print(s)
-# print(sa)
-# print()
-#
-# sa1=s[1:3]
-# print(sa1)
-# print()
-# print()
-#
-#
-# sa2=s[1+3]
-# print(sa2)
-# print()
-#
-# sa3=s[2-2]
-# print(sa3)
+arr=pd.Series(np.arange(10,16,1),index=["a","b","c","d","e","f"])
+print(arr)
+C=arr["c"]
+print(C)
+print()
 
-# s=pd.name="sreedhar"
-# print(s)
+a=arr["c":"f"]=500
+print(a)
+print()
+
+b=arr[::-3]
+print(b)
+print()
+
+d=arr['a':'f':2]
+print(d)
+print()
+
+aa=arr[::3]
+print(aa)
+print()
+print()
+
+sreedhar=pd.Series(["sreedhar","deva","arun","pavan"])
+print(sreedhar)
+print()
+
+sss=sreedhar["sreedhar":"arun"]
+print(sss)
+
+
+
+
+s=pd.name="sreedhar"
+print(s)
 
 
 data1={
@@ -38,18 +53,39 @@ sa9=pd.Series(data=data1,index=['a','b','c','d'])
 print(sa9)
 print()
 
-# ssa=pd.Series([1,2,3])
-# ssa.dtypes('int64')
 
-# s = pd.Series([1, 2, 3])
-# s.dtypes
-# dtype('int64')
+# name in Series
+stuname=pd.Series([22,23,23,24,25],name="stuage")
+print(stuname)
+print()
 
-# sss=pd.Series([1,2,3]).values
-# array([1,2,3])
-# print(array)
+# index name
+stuage=stuname.index.name="sreedhar"
+print(stuage)
 
-#
-# m= pd.Series(['Ant', 'Bear', 'Cow'])
-# print(m)
-# m.size()
+
+# adding two values
+arr1=pd.Series([1,2,3,4,5])
+arr2=pd.Series([6,7,8,9,])
+wherevalue=0
+arr3=(arr1+arr2)
+print(arr3)
+
+# value
+
+print()
+# size
+sa2=pd.Series([1,2,3,4]).size
+print(sa2)
+print()
+
+# methods
+sa3=pd.Series({'sreedhar':24,'deva':23,'arun':45,'pavan':60},name="age")
+print("the max age is:",sa3.max())
+print()
+print("the min age is:",sa3.min())
+print()
+print("the head  is:",sa3.head())
+print()
+print("the tail is:",sa3.tail())
+print("the count is:",sa3.count())
