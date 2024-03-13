@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    
+}
+header{
+    position:fixed;
+    width:100%;
+    z-index:1000;
+    align-items: center;
+    justify-content:space-between;
+    background: transparent;
+    margin: 0;
+    padding: 40px 0px;
+    background-color: rgb(142, 218, 193);
+    
+    
+}
+.logo{
+    font-size: 18px;
+    color: white;
+display: flex;
+}
+.navbar{
+    display: flex;
+    
+
+}
+.navbar li{
+  list-style: none;
+  margin: 0 20px;
+}
+.navbar a{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 10px 10px;
+
+}
+.navbar a:hover{
+    color: brown;
+    border-bottom: 2px solid cornflowerblue;
+    transition: all .50s;
+
+}
