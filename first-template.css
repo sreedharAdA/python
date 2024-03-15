@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    list-style: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .container{
@@ -18,6 +19,7 @@
 .navbar{
     display: flex;
     justify-content: right;
+    /* justify-content: space-between; */
     margin-top: -50px;
     /* position: fixed; */
     
@@ -57,4 +59,38 @@
 }
 .page h1{
     font-size: 70px;
+}
+footer{
+    width: 100%;
+    background-color: rgb(237, 192, 132);
+    padding-top: 30px;
+ 
+}
+.footer1{
+    display: flex;
+    justify-content: space-between; 
+}
+.contact-us li{
+    padding: 20px;
+}
+.contact-us a{    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.follow{
+    margin-left: -400px;
+    
+}
+.follow li{
+    padding: 20px;
+    font-size: 20px;
+}
+.follow a{
+    color: blue;
+    margin-left: 20px;
+}
+
+.map iframe{
+    margin-left: -450px;
 }
