@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.navbar li{
+    display: inline;
+    padding: 40px;
+}
+li a{
+    color: black;
+    font-size: 20px;
+}
+.navbar li a:hover{
+border-bottom: 3px solid rgb(251, 172, 185);
+transition: 0.5s;
+}
+.navbar li i:hover{
+    border-bottom: 3px solid rgb(251, 172, 185);
+    transition: 0.5s;
+}
+/* .navbar */
+/* .navbar ul li::after{
+content: '';
+width: 100%;
+bottom: -10px;
+position: absolute;
+background-color: aqua;
+height: 3px;
+left: 0;
+top: 0;
+} */
+.navbar a:hover{
+color: rgb(24, 24, 228);
+}
+li i:hover{
+    color: blue;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+section{
+    padding-top: 40px;
+}
+.About-us{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 30px 20%;
+    background-color: rgb(250, 232, 210);
+    position: relative;
+}
+.fa{
+    margin: 10px;
+    font-size: 20px;
+} 
+.fa li{
+
+display: inline;
+
+}
+.fa i:hover{
+color: rgb(255, 0, 212);
+}
+.btn button{
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+.btn button:hover{
+    border: none;
+}
+.p{
+    text-align: center;
+    color: rgb(149, 27, 102);
+}
+.p h1{
+color: black;
+}
+.footer{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+
+}
+.footer main2 li{
+    font-size: 20px;
+    margin: 40px;
+}
+.footer li a{
+    font-size: 20px;
+}
+.main2 li a:hover{
+    color: rgb(241, 45, 6);
+}
+.end{
+    text-align: center;
+    font-family: sans-serif;
+    background-color:rgb(157, 157, 245);
+    color: white;
+}
