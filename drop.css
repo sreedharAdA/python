@@ -1,0 +1,22 @@
+.navbar li{
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    display: inline;
+    margin: 40px;
+}
+.navbar ul li ul{
+    display: none;
+}
+.navbar ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.navbar ul li:hover ul{
+    display: grid;
+    padding-right: 25px;
+    position: fixed;
+    margin: 0 260px;
+    background-color: black;
+    color: white;
+}
